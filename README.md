@@ -78,3 +78,12 @@ PMM Client uses Prometheus exporters. Applications store their metrics in arbitr
 
 - [Clickhouse Exporter for Prometheus](https://github.com/percona-lab/clickhouse_exporter) – by Yegor Andreenko. [Clickhouse Grafana Dashboard](https://grafana.com/grafana/dashboards/882) could be a start for inspiration.
 - [Redis Metrics Exporter](https://github.com/oliver006/redis_exporter) – Prometheus exporter for Redis metrics. Instructions in the section "Example 2: Adding a Redis Monitoring Service" in the [article](https://www.percona.com/blog/2018/02/12/percona-monitoring-management-pmm-support-external-monitoring-services-yes/).
+
+## Configuration Management
+
+PMM Server & Client can be managed using various configuration management frameworks.
+
+### Ansible
+
+- [PMM Client]() - by @michaelcoburn
+- [PMM Server]() - by @michaelcoburn
